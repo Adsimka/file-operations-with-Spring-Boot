@@ -4,3 +4,12 @@ server:
 file:
   storage:
     location: file-storage
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      location: temp123
+      file-size-threshold: 5MB
+      max-file-size: 1MB
+      max-request-size: 10MB
