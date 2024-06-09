@@ -13,3 +13,9 @@ spring:
       file-size-threshold: 5MB
       max-file-size: 1MB
       max-request-size: 10MB
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver

@@ -11,8 +11,8 @@ services:
     restart: unless-stopped
 
   pgadmin:
-    container_name: pgadmin4_container
-    image: dpage/pgadmin4:8.8
+    container_name: pgadmin4_file_operations
+    image: dpage/pgadmin4
     restart: always
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
